@@ -14,7 +14,7 @@ Also disables zoom constrains for a better overview and adds some wind particles
 
 
 ## How to use
-_Warning! Installing this mod may resets your ingame achievements (skins, buildings..)._
+_Warning! Installing this mod may reset your ingame achievements (skins, buildings..)._
 - DRC requires BepInEx. Download and extract it into DorfRomantik's game folder. 
 - Run DorfRomantik. 
 - Drop the DorfRomantiCam.dll into BepInex/Plugins. 
