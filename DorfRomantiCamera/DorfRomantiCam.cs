@@ -18,7 +18,7 @@ namespace DorfRomantiCam
 		// Token: 0x06000007 RID: 7 RVA: 0x00002121 File Offset: 0x00000321
 		internal void Awake()
 		{
-			this.harmony = new Harmony("com.mat.test");
+			this.harmony = new Harmony("com.mat.DorfMod");
 			this.mainCam = Camera.main;
 		}
 
