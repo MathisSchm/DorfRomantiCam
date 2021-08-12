@@ -1,0 +1,286 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Harmony">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\BepInEx.Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\System.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\System.EnterpriseServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Internals">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\System.ServiceModel.Internals.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="TriangleNET">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\TriangleNET.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.UIElementsNativeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.VirtualTexturingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>E:\Scripts\ClassLibrary2\ClassLibrary2\bin\Debug\netstandard2.0\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
