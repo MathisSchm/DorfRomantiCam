@@ -1,7 +1,7 @@
 # DorfRomantiCam
 ### A mod for the puzzle game DorfRomantik.
 
-![Here is how the application looks.]()
+![Here is how the application looks.](https://github.com/MathisSchm/DorfRomantiCam/blob/master/DorfRomantiCamera/Resources/Preview.png)
 
 ## About 
 DorfRomantiCam enables you to ride on boats and trains of your choice through your map in DorfRomantik. 
