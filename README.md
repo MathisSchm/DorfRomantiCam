@@ -15,7 +15,7 @@ https://github.com/MathisSchm/DorfRomantiCam/releases/tag/1.0
 
 ## How to use
 
-# Please remember that modding your game can break things beyond repair. DorfRomantik does not officially support modding and neither can nor will be able to help you troubleshoot problems if you have modded your game. Installing this mod may result in a complete reset of ingame achievements (Skins, buildings...).
+### Please remember that modding your game can break things beyond repair. DorfRomantik does not officially support modding and neither can nor will be able to help you troubleshoot problems if you have modded your game. Installing this mod may result in a complete reset of ingame achievements (Skins, buildings...).
 Only install mods if you are willing to possibly wipe your progress. 
 
 - DRC requires BepInEx. Download and extract it into DorfRomantik's game folder. 
